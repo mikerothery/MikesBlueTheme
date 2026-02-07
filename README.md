@@ -9,8 +9,8 @@ and FreeCAD Classic which uses the Local Operating System Fonts and Colours.
 Settings for the internal UI inside FreeCAD can be modified by the user but custom changes to menus and layouts are more complex thus requiring a dedicated system theme.
 
 ## Reason for this Theme
-I'm not a great fan of dark themes so I have been using FreeCAD Classic which has the look and feel of my operating system.  
-Ever since the early days of Windows 95/98/XP blue has been a dominant colour so I decided to make my own FreeCAD Theme using the look and feel of a classic operating system but with a modern twist.  
+I'm not a great fan of dark themes so I was using the FreeCAD Classic Theme which has the look and feel of my operating system.  
+Ever since the early days of Windows 95/98 and XP etc, blue has been a dominant colour so I decided to make my own FreeCAD Theme using the look and feel of a classic operating system but with a modern twist.  
 The result is MikesBlueTheme.  
 It should work under all Operating Systems.  I use Linux - hence the Tux Icon when installed via the Addon Manager.  
 This is it, I hope you like it.
