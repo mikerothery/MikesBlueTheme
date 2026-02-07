@@ -66,7 +66,12 @@ Install it
 Run FreeCAD\
 Edit Preferences - General\
 Change Theme to MikesBlueTheme\
+Apply - OK\
 Enjoy
+
+## Note
+Edit Preferences - Display - UI\
+Style sheet (advanced) will show that MikesBlueTheme is being used.
 
 ## Contact
 If you have any comments, please email me on mike@maidencombe.com
