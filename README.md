@@ -2,10 +2,10 @@
 ## A Blue Theme for FreeCAD Version 1.0 and Version 1.1
 
 ## Background
-By default, FreeCAD ships with three themes.  
-FreeCAD Light - a bacic light theme.  
-FreeCAD Dark - a basic dark theme.  
-and FreeCAD Classic which uses the Local Operating System Fonts and Colours.  
+By default, FreeCAD ships with three themes.\
+FreeCAD Light - a bacic light theme.\
+FreeCAD Dark - a basic dark theme.\
+and FreeCAD Classic which uses the Local Operating System Fonts and Colours.\
 Settings for the internal UI inside FreeCAD can be modified by the user but custom changes to menus and layouts are more complex thus requiring a dedicated system theme.
 
 ## Reason for this Theme
@@ -40,8 +40,8 @@ This is an example of a simple Sketch using MikesBlueTheme
 
 ![MikesBlueTheme Screenshot2](ScreenshotSketch.png)
 
-## How to install
-Run FreeCAD
+## How to find MikesBlueTheme
+Run FreeCAD  
 Edit Preferences - Addon Manager - Add Custom Repository (+ sign) and enter the following
 Repository URL - https://github.com/mikerothery/MikesBlueTheme  
 Branch - main  
@@ -53,17 +53,19 @@ You will find MikesBlueTheme in the list of Preference Packs.
 
 If you have found MikesBlueTheme using the Addon Manager, you will already have entered the above steps.
 
-Click Install to install MikesBlueTheme.
-
-## How to Activate MikesBlueTheme
-Run FreeCAD
+## How to Install MikesBlueTheme
+Run FreeCAD  
 Tools - Addon Manager  
 For Filter, Select - Preference Pack  
 Refresh Local Cache  
 You will find MikesBlueTheme in the list of Preference Packs.  
 Select it  
 Install it  
-Enjoy
+
+## How to Acvivate MikesBlueTheme
+Run FreeCAD  
+
+
 
 ## Contact
 If you have any comments, please email me on mike@maidencombe.com
