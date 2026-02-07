@@ -38,7 +38,7 @@ In my opinion, the above colours provide clean easy to read sketches but can be 
 
 This is an example of a simple Sketch using MikesBlueTheme
 
-![MikesBlueTheme Screenshot2](ScreenshotSketcher.png)
+![MikesBlueTheme Screenshot2](ScreenshotSketch.png)
 
 ## How to install
 Run FreeCAD
