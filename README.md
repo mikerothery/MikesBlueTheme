@@ -53,6 +53,8 @@ You will find MikesBlueTheme in the list of Preference Packs.
 
 If you have found MikesBlueTheme using the Addon Manager, you will already have entered the above steps.
 
+Click Install to install MikesBlueTheme.
+
 ## How to Activate MikesBlueTheme
 Run FreeCAD
 Tools - Addon Manager  
