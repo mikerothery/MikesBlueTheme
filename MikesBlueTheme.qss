@@ -1,0 +1,133 @@
+/* COMPLETE BESPOKE THEME: MIKE'S-BLUE-THEME */
+
+/* 1. GLOBAL DEFAULTS - The foundation */
+* {
+    background-color: #c4d6e5; /* Bespoke panel blue */
+    color: #000000;            /* Black text */
+}
+
+/* 2. MAIN PANELS - Bypasses 'Classic' limitations */
+QMainWindow, QDialog, QDockWidget, QStatusBar, QMenuBar, QToolBar {
+    background-color: #aac2e6;
+    border: none;
+}
+
+/* 3. THE DATA FIELDS - Keep these white so they aren't black/blue */
+QTreeView, QHeaderView, QListView, QTableView, QLineEdit, QTextEdit, QComboBox {
+    background-color: #ffffff; 
+    color: #000000;
+    border: 1px solid #ababab;
+}
+
+/* 4. SELECTION - How things look when clicked */
+QTreeView::item:selected, QListView::item:selected {
+    background-color: #5b73c4; /* Darker blue selection */
+    color: #ffffff; /* White Text */
+}
+
+/* 5. TABS & BUTTONS - Subtle contrast */
+/* FIRST: Set the font on the bar itself so it knows how big the tabs need to be */
+QTabBar {
+    font-size: 12pt;
+}
+
+QTabBar::tab {
+    background-color: #b0c4d4; 
+    /* Increase side padding to 12px to give text breathing room */
+    padding: 5px 12px; 
+    border: 1px solid #a0a0a0;
+    /* This ensures the tab is at least wide enough for 'Model' */
+    min-width: 70px; 
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff; 
+    font-weight: bold; /* Optional: makes the active tab clearer */
+}
+
+/* 6. MENU HOVER & HIGHLIGHTS - Manual Color Override */
+
+/* The dropdown menu background */
+QMenu {
+    background-color: #c4d6e5;
+    border: 1px solid #999999;
+    color: #000000;
+}
+
+/* THE FIX: Specific hover color for dropdown items */
+QMenu::item:selected {
+    /* Change #3399ff to any color you like (e.g., #2a82da) */
+    background-color: #556cbb !important;
+    color: #ffffff !important; /* Forces text to white when hovered */
+}
+
+/* Specific hover color for the top bar (File, Edit, etc.) */
+QMenuBar::item:selected {
+    background-color: #556cbb;
+    color: #ffffff;
+}
+
+/* Ensures the text stays black when NOT hovered */
+QMenu::item {
+    background-color: transparent;
+    color: #000000;
+}
+
+/* 7. FONT SIZE ADJUSTMENTS */
+
+/* Main Menu Bar (File, Edit, View, etc.) */
+QMenuBar {
+    font-size: 13pt;
+}
+
+/* Dropdown Menu Items (Open, Save, etc.) */
+QMenu {
+    font-size: 13pt;
+}
+
+/* 8. DIALOG & PREFERENCES FIX */
+
+/* Targets the main Preferences window and all pop-up dialogs */
+QDialog {
+    font-size: 12pt;
+}
+
+/* Targets the labels (text) inside those windows specifically */
+QDialog QLabel {
+    font-size: 12pt;
+    background-color: transparent; /* Ensures blue-grey doesn't block text */
+}
+
+/* Targets the list on the left side of the Preferences window */
+QDialog QListView, QDialog QTreeView {
+    font-size: 12pt;
+}
+
+/* Targets the buttons at the bottom (OK, Cancel, Apply) */
+QDialog QPushButton {
+    font-size: 11pt;
+    min-width: 80px;
+}
+
+/* 9. THE ULTIMATE FONT FIX - Catches remaining small text */
+
+/* Targets every standard widget that might have been missed */
+QWidget {
+    font-size: 12pt;
+}
+
+/* Specifically targets the Property View and Tree View text */
+QAbstractItemView {
+    font-size: 12pt;
+}
+
+/* Targets the 'Report View' and 'Python Console' output text */
+QTextEdit, QPlainTextEdit {
+    font-size: 12pt;
+}
+
+/* Fixes the 'Tab' text in the Preferences and Task panels */
+QTabBar::tab {
+    font-size: 11pt;
+    font-weight: bold;
+}
