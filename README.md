@@ -32,7 +32,7 @@ Invalid Sketch is Red\
 Constraint Symbols are Dark Yellow\
 Dimensions are Dark Yellow\
 Referenced Constraints are Dark Yellow\
-New Elements are Grey\
+New Elements are Grey
 
 In my opinion, the above colours provide clean easy to read sketches but can be altered in the usual way using Edit Preferences - Sketcher - Appearance.
 
@@ -43,13 +43,13 @@ This is an example of a simple Sketch using MikesBlueTheme.
 ## How to find MikesBlueTheme
 Run FreeCAD\
 Edit Preferences - Addon Manager - Add Custom Repository (+ sign) and enter the following\
-Repository URL - https://github.com/mikerothery/MikesBlueTheme\
-Branch - main\
+Repository URL - https://github.com/mikerothery/MikesBlueTheme  
+Branch - main  
 Apply - OK\
 Tools - Addon Manager\
 For Filter, Select - Preference Pack\
 Refresh Local Cache\
-You will find MikesBlueTheme in the list of Preference Packs.\
+You will find MikesBlueTheme in the list of Preference Packs.
 
 If you have found MikesBlueTheme using the Addon Manager, you will already have entered the above steps.
 
@@ -60,7 +60,7 @@ For Filter, Select - Preference Pack\
 Refresh Local Cache\
 You will find MikesBlueTheme in the list of Preference Packs.\
 Select it\
-Install it\
+Install it
 
 ## How to Acvivate MikesBlueTheme
 Run FreeCAD\
