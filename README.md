@@ -13,14 +13,14 @@ I'm not a great fan of dark themes so I was using the FreeCAD Classic Theme whic
 Ever since the early days of Windows 95/98 and XP etc, blue has been a dominant colour so I decided to make my own FreeCAD Theme using the look and feel of a classic operating system but with a modern twist.  
 The result is MikesBlueTheme.  
 It should work under all Operating Systems.  I use Linux - hence the Tux Icon when installed via the Addon Manager.  
-This is it, I hope you like it.
+This is MikesBlueTheme, I hope you like it.
 
-![MikesBlueTheme Screenshot](ScreenshotModel.png)
+![MikesBlueTheme Screenshot1](ScreenshotModel.png)
 
 ## Colours
-FreeCAD's Light and Dark Themes incorporate UI colours that best fit the dark and likght background colours.  
+FreeCAD's Light and Dark Themes incorporate appropriate UI colours that best fit the dark and light background colours.  
 Whilst designing MikesBlueTheme, it was clear that the default UI colours for the Sketcher wouldn't work with my selected blue background.  
-So I changed the Sketcher Colours as follows:-
+So I have changed the Sketcher Colours as follows:-
 
 Unconstrained Geometry is White  
 Constrained Geometry is Dull Green  
@@ -38,7 +38,7 @@ In my opinion, the above colours provide clean easy to read sketches but can be 
 
 This is an example of a simple Sketch using MikesBlueTheme
 
-![MikesBlueTheme Screenshot](ScreenshotSketcher.png)
+![MikesBlueTheme Screenshot2](ScreenshotSketcher.png)
 
 ## How to install
 Run FreeCAD
