@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package xmlns="https://www.freecad.org/wiki/Package_Metadata" version="1">
+  <name>MikesBlueTheme</name>
+  <description>A bespoke blue-grey and white theme with optimized fonts for FreeCAD 1.0 and 1.1.</description>
+  <version>1.0.0</version>
+  <author email="mike@maidencombe.com">Mike Rothery</author>
+  <maintainer email="mike@maidencombe.com">Mike Rothery</maintainer>
+  <url>https://github.com/mikerothery/MikesBlueTheme</url>
+  <icon>linux-tux-svgrepo-com.svg</icon>
+  <preferencepack>
+    <name>MikesBlueTheme</name>
+    <type>Theme</type>
+    <file>MikesBlueTheme/MikesBlueTheme.cfg</file>
+    <stylesheet>MikesBlueTheme/MikesBlueTheme.qss</stylesheet>
+  </preferencepack>
+</package>
