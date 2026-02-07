@@ -3,9 +3,9 @@
 
 ## Background
 By default, FreeCAD ships with three themes.  
-FreeCAD Light - a bacic light theme.
-FreeCAD Dark - a basic dark theme.
-and FreeCAD Classic which uses the system fonts and colours.
+FreeCAD Light - a bacic light theme.  
+FreeCAD Dark - a basic dark theme.  
+and FreeCAD Classic which uses the system fonts and colours.  
 Settings for the internal UI inside FreeCAD can be modified by the user but changes to the main layouts are more complex.
 
 I'm not a great fan of dark themes so I was using FreeCAD Classic thus providing the look and feel from my operating system
