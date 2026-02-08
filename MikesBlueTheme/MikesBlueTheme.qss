@@ -1,133 +1,96 @@
-/* COMPLETE BESPOKE THEME: MIKE'S-BLUE-THEME */
+/* COMPLETE BESPOKE THEME: MIKE'S-BLUE-THEME V1.0.2 */
 
-/* 1. GLOBAL DEFAULTS - The foundation */
+/* 1. GLOBAL DEFAULTS - Resetting the foundation */
 * {
-    background-color: #c4d6e5; /* Bespoke panel blue */
-    color: #000000;            /* Black text */
-}
-
-/* 2. MAIN PANELS - Bypasses 'Classic' limitations */
-QMainWindow, QDialog, QDockWidget, QStatusBar, QMenuBar, QToolBar {
-    background-color: #aac2e6;
-    border: none;
-}
-
-/* 3. THE DATA FIELDS - Keep these white so they aren't black/blue */
-QTreeView, QHeaderView, QListView, QTableView, QLineEdit, QTextEdit, QComboBox {
-    background-color: #ffffff; 
+    /* We remove the background-color from here to prevent "bleed" into white areas */
     color: #000000;
-    border: 1px solid #ababab;
-}
-
-/* 4. SELECTION - How things look when clicked */
-QTreeView::item:selected, QListView::item:selected {
-    background-color: #5b73c4; /* Darker blue selection */
-    color: #ffffff; /* White Text */
-}
-
-/* 5. TABS & BUTTONS - Subtle contrast */
-/* FIRST: Set the font on the bar itself so it knows how big the tabs need to be */
-QTabBar {
     font-size: 12pt;
 }
 
-QTabBar::tab {
-    background-color: #b0c4d4; 
-    /* Increase side padding to 12px to give text breathing room */
-    padding: 5px 12px; 
-    border: 1px solid #a0a0a0;
-    /* This ensures the tab is at least wide enough for 'Model' */
-    min-width: 70px; 
+/* 2. MAIN PANELS - This provides the blue "shell" of FreeCAD */
+QMainWindow, QDialog, QDockWidget, QStatusBar, QMenuBar, QToolBar, QScrollArea {
+    background-color: #aac2e6; /* The blue you picked in Gradience */
+    border: none;
 }
 
-QTabBar::tab:selected {
-    background-color: #ffffff; 
-    font-weight: bold; /* Optional: makes the active tab clearer */
+/* Fix for the background of the actual "workspace" behind the 3D view */
+QWidget#mdiArea {
+    background-color: #aac2e6;
 }
 
-/* 6. MENU HOVER & HIGHLIGHTS - Manual Color Override */
-
-/* The dropdown menu background */
-QMenu {
-    background-color: #c4d6e5;
-    border: 1px solid #999999;
+/* 3. THE DATA FIELDS - These should stay crisp white */
+QTreeView, QHeaderView, QListView, QTableView, QLineEdit, QTextEdit, QPlainTextEdit, QComboBox {
+    background-color: #ffffff;
     color: #000000;
+    border: 1px solid #ababab;
+    alternate-background-color: #f1f6fa; /* Subtle stripe for lists like Addon Manager */
 }
 
-/* THE FIX: Specific hover color for dropdown items */
-QMenu::item:selected {
-    /* Change #3399ff to any color you like (e.g., #2a82da) */
-    background-color: #556cbb !important;
-    color: #ffffff !important; /* Forces text to white when hovered */
-}
-
-/* Specific hover color for the top bar (File, Edit, etc.) */
-QMenuBar::item:selected {
+/* 4. SELECTION - High contrast for clarity */
+QTreeView::item:selected, QListView::item:selected, QTableView::item:selected {
     background-color: #556cbb;
     color: #ffffff;
 }
 
-/* Ensures the text stays black when NOT hovered */
-QMenu::item {
-    background-color: transparent;
-    color: #000000;
-}
-
-/* 7. FONT SIZE ADJUSTMENTS */
-
-/* Main Menu Bar (File, Edit, View, etc.) */
-QMenuBar {
-    font-size: 13pt;
-}
-
-/* Dropdown Menu Items (Open, Save, etc.) */
-QMenu {
-    font-size: 13pt;
-}
-
-/* 8. DIALOG & PREFERENCES FIX */
-
-/* Targets the main Preferences window and all pop-up dialogs */
-QDialog {
-    font-size: 12pt;
-}
-
-/* Targets the labels (text) inside those windows specifically */
-QDialog QLabel {
-    font-size: 12pt;
-    background-color: transparent; /* Ensures blue-grey doesn't block text */
-}
-
-/* Targets the list on the left side of the Preferences window */
-QDialog QListView, QDialog QTreeView {
-    font-size: 12pt;
-}
-
-/* Targets the buttons at the bottom (OK, Cancel, Apply) */
-QDialog QPushButton {
-    font-size: 11pt;
-    min-width: 80px;
-}
-
-/* 9. THE ULTIMATE FONT FIX - Catches remaining small text */
-
-/* Targets every standard widget that might have been missed */
-QWidget {
-    font-size: 12pt;
-}
-
-/* Specifically targets the Property View and Tree View text */
+/* 5. ADDON MANAGER SPECIFIC POLISH */
+/* This fixes the "boxes inside boxes" look in the Addon Manager */
 QAbstractItemView {
-    font-size: 12pt;
+    background-color: #ffffff;
+    show-decoration-selected: 1;
 }
 
-/* Targets the 'Report View' and 'Python Console' output text */
-QTextEdit, QPlainTextEdit {
-    font-size: 12pt;
-}
-
-/* Fixes the 'Tab' text in the Preferences and Task panels */
+/* 6. TABS - Clean white active tab */
 QTabBar::tab {
+    background-color: #b0c4d4;
+    padding: 6px 15px;
+    border: 1px solid #a0a0a0;
+    border-bottom: none;
+    min-width: 80px;
     font-size: 11pt;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
     font-weight: bold;
+    border-bottom: 2px solid #556cbb; /* Sharp blue line under active tab */
+}
+
+/* 7. MENUS & TOOLBARS */
+QMenuBar {
+    background-color: #aac2e6;
+    font-size: 13pt;
+}
+
+QMenu {
+    background-color: #ffffff; /* White background for menus is easier on the eyes */
+    border: 1px solid #999999;
+    font-size: 13pt;
+}
+
+QMenu::item:selected {
+    background-color: #556cbb;
+    color: #ffffff;
+}
+
+/* 8. SURFACE PRO / HIGH DPI FIXES */
+QCheckBox::indicator, QGroupBox::indicator, QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+/* 9. BUTTONS */
+QPushButton {
+    background-color: #d1e0f0;
+    border: 1px solid #8ba0b5;
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #556cbb;
+    color: #ffffff;
 }
