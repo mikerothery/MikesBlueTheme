@@ -73,6 +73,12 @@ Enjoy
 Edit Preferences - Display - UI\
 Style sheet (advanced) will show that MikesBlueTheme is being used.
 
+## Finally Changes for Different Resolutions
+The Marker (the size of the vertex etc. in the Sketcher)\
+Edit Preferences - Display - 3D View - Marker Size\
+Set to 9px for a 1920 x 1080 (Standard 1K) display\
+Set to 13px for a 2160 x 1440 (Surface Pro) display 
+
 ## Contact
 If you have any comments, please email me on mike@maidencombe.com
 
