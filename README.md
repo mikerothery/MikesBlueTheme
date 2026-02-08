@@ -67,7 +67,7 @@ Install it
 ## Upgrading FreeCAD
 On running the new version of FreeCAD for the first time, a dialog will appear offering a suggestion to copy the settings from the old version of FreeCAD\
 Click - Copy Configuration (Recommended)\
-FreeCAD will now copy over all the settings from old Version.
+FreeCAD will now copy over all the settings from the old Version.
 
 ## How to Acvivate MikesBlueTheme
 Run FreeCAD\
