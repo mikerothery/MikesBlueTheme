@@ -64,6 +64,11 @@ You will find MikesBlueTheme in the list of Preference Packs.\
 Select it\
 Install it
 
+## Upgrading FreeCAD
+On running the new version of FreeCAD 1.1 for the first time, a dialog will appear offering a suggestion to copy the settings from the old FreeCAD Version\
+Click - Copy Configuration (Recommended)\
+FreeCAD will now copy over all the settings from old Version.
+
 ## How to Acvivate MikesBlueTheme
 Run FreeCAD\
 Edit Preferences - General\
