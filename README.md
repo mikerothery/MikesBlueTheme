@@ -73,8 +73,9 @@ Enjoy
 Edit Preferences - Display - UI\
 Style sheet (advanced) will show that MikesBlueTheme is being used.
 
-## Changes for Different Screen Resolutions
-The Marker (the size of the vertex etc. in the Sketcher)\
+## Screen Resolution
+FreeCAD worls well "out of the box" on 1920 x 1080 screen resolutions.\
+However, the Marker Size (the size of the Vertex etc. in the Sketcher) can be made more prominent by changing:-\
 Edit Preferences - Display - 3D View - Marker Size\
 Set to 9px for a 1920 x 1080 (Standard 1K) display\
 Set to 13px for a 2160 x 1440 (Surface Pro) display 
