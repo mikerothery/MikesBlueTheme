@@ -49,7 +49,9 @@ Apply - OK\
 Tools - Addon Manager\
 For Filter, Select - Preference Pack\
 Refresh Local Cache\
-You will find MikesBlueTheme in the list of Preference Packs.
+You will find MikesBlueTheme in the list of Preference Packs.\
+### Note for FreeCAD Version 1.1
+For versions greater than FreeCAD Version 1.0, the Addon Manager won't find MikesBlueTheme with the Filter set to Preferences.  Instead set teh Filter to Any and Search foe MikesBlueTheme.  MikesBlueTheme will appear and work normally.\
 
 If you have found MikesBlueTheme using the Addon Manager, you will already have entered the above steps.
 
