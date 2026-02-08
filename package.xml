@@ -2,7 +2,7 @@
 <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
   <name>MikesBlueTheme</name>
   <description>Mike's bespoke blue-grey theme and preference pack for 1.0 and 1.1.</description>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <date>2026-02-07</date>
   <maintainer email="mike@maidencombe.com">Mike</maintainer>
   <license>LGPL-2.1</license>
