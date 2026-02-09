@@ -9,13 +9,13 @@
 
 /* 2. MAIN PANELS - This provides the blue "shell" of FreeCAD */
 QMainWindow, QDialog, QDockWidget, QStatusBar, QMenuBar, QToolBar, QScrollArea {
-    background-color: #aac2e6; /* The blue you picked in Gradience */
+    background-color: #c4d6e5; /* The blue you picked in Gradience */
     border: none;
 }
 
 /* Fix for the background of the actual "workspace" behind the 3D view */
 QWidget#mdiArea {
-    background-color: #aac2e6;
+    background-color: #c4d6e5;
 }
 
 /* 3. THE DATA FIELDS - These should stay crisp white */
@@ -57,7 +57,7 @@ QTabBar::tab:selected {
 
 /* 7. MENUS & TOOLBARS */
 QMenuBar {
-    background-color: #aac2e6;
+    background-color: #c4d6e5;
     font-size: 13pt;
 }
 
