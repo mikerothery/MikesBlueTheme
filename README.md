@@ -29,9 +29,10 @@ Construction Constrained Geometry is Lighter Blue\
 External Geometry is Yellow\
 Fully Constrained Sketch is Bright Green\
 Invalid Sketch is Red\
-Constraint Symbols are Dark Yellow\
-Dimensions are Dark Yellow\
-Referenced Constraints are Dark Yellow\
+Constraint Symbols are Brown\
+Dimensional Constraints are Dark Blue\
+Referenced Constraints are Orange\
+Expression Dependant Constraints are Dark Grey\
 New Elements are Grey
 
 In my opinion, the above colours provide clean easy to read sketches but can be altered in the usual way using Edit Preferences - Sketcher - Appearance.
