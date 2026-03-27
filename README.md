@@ -15,7 +15,7 @@ The result is MikesBlueTheme.\
 It should work under all Operating Systems.  I use Linux - hence the Tux Icon when installed via the Addon Manager.\
 This is MikesBlueTheme, I hope you like it.
 
-![MikesBlueTheme Screenshot1](ScreenshotModel.png)
+![MikesBlueTheme Screenshot1](https://raw.githubusercontent.com/mikerothery/MikesBlueTheme/main/ScreenshotModelv103.png)
 
 ## Colours
 FreeCAD's Light and Dark Themes incorporate appropriate UI colours that best fit the dark and light background colours.\
@@ -39,7 +39,7 @@ In my opinion, the above colours provide clean easy to read sketches but can be 
 
 This is an example of a simple Sketch using MikesBlueTheme.
 
-![MikesBlueTheme Screenshot2](ScreenshotSketch.png)
+![MikesBlueTheme Screenshot1](https://raw.githubusercontent.com/mikerothery/MikesBlueTheme/main/ScreenshotSketchv103.png)
 
 ## How to find MikesBlueTheme
 Run FreeCAD\
